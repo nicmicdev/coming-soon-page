@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-color: black;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  color: green;
+}
+
+.topright {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  color: green;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  color: green;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+  color: green;
+  font-size: 25px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <p>NM</p>
+  </div>
+  <div class="topright">
+    Test Top Right
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <span class="subtitle-1">Currently in development</span>
+    <br>
+    <br>
+    <p class="subtitle-2"><b>Release:</b></p>
+    <br>
+    <span class="release-date"><b>27th October 2023 12:00 PM</b></span>
+  </div>
+  <div class="bottomleft">
+    <p>Big things are coming...</p>
+  </div>
+</div>
+
+<div class="bottomright">Test Bottom Right</div>
+
+</body>
+</html>
